@@ -1,0 +1,177 @@
+@font-face {
+    font-family: 'Gilroy-Bold';
+    src: url('../fonts/Gilroy-Bold.woff2');
+}
+
+@font-face {
+    font-family: 'Gilroy-SemiBold';
+    src: url('../fonts/Gilroy-Semibold.woff2');
+}
+
+@font-face {
+    font-family: 'Gilroy-Medium';
+    src: url('../fonts/Gilroy-Medium.woff2');
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+img{
+    display: block;       
+}
+
+a {
+    display: flex;
+}
+
+.container{
+    width: 1398px;
+    height: 928px;
+    border: 1px solid #000;
+    margin: 0px 303px 15px 298px;
+}
+
+header {
+    width: 1289px;
+    height: 114px;
+    margin: 14px 0px 0px 18px;
+    padding-top: 14px;
+    border: 1px solid #0150E9;    
+}
+
+.logo {
+    width: 35px;
+    height: 40px;
+    flex-shrink: 0;
+    margin-left: 59px;
+    margin-top: 26px;
+}
+
+.grow{
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 14px;
+    margin-top: 45px;    
+}
+
+.be{
+    color: #F25822;
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.navigation{
+    width: 556px;
+    height: 40px;
+    margin: 26px 212px 0px 551px;
+    border: 1px solid #20C905;
+}
+
+.menu-navigation{
+    width: 533px;
+    height: 17px;
+    color: #000;
+    font-family: Gilroy-Medium;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 11px 14 px 12px 9 px;
+}
+
+main {
+    width: 1274px;
+    height: 536px;
+    border: 1px solid #E99C08;
+    margin: 14px 0px 0px 18px ;
+}
+
+.main-article {
+    width: 589px;
+    height: 494px;
+    border: 1px solid #BD0EFB;
+    margin: 22px 26px 366px 16px;
+}
+
+.main-article-text{
+    width: 522px;
+    height: 222px;
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 59px 26px 0px 41px;
+}
+
+.main-article-smalltext {
+    width: 466;
+    height: 48;
+    color: #888;
+    font-family: Gilroy-Medium;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 17px 82px 0px 41px;
+
+}
+
+.button {
+    width: 374px;
+    height: 94px;
+    border: 1px solid #FF1DA4;
+    margin: 16px 190px 0px 16px;
+}
+
+.main-bution {
+    color: #FFF;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 140px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+}
+
+.watch {
+    color: #AAA;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0 0 0 72px;
+}
+
+.main-image {
+    width: 545px;
+    height: 375px;
+    flex-shrink: 0;
+    margin: 22px 26px 64px 15px;
+}
+
+footer {
+    width: 1240px;
+    height: 158px;
+    border: 1px solid #19FBFB;
+    margin: 16px 45px 47px 34px;
+}
