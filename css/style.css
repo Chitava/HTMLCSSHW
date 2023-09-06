@@ -55,7 +55,7 @@ header {
 
 .menu-navigation {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   gap: 10px;
   width: 533px;
   height: 17px;
@@ -131,6 +131,7 @@ main {
   border-radius: 50px;
   background: #f25822;
   box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.2);
+  border: none;
 }
 
 .watch {
@@ -170,8 +171,6 @@ main {
 }
 
 .read-more {
-  width: 1915px;
-  height: 491px;
   flex-shrink: 0;
   display: flex;
   margin-right: 16px;
@@ -223,8 +222,6 @@ main {
   display: flex;
   flex-direction: column;
 
-  width: 1920px;
-  height: 919px;
   flex-shrink: 0;
   text-align: center;
 }
